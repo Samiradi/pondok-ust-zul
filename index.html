@@ -5,10 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ma'had Syafa'atul Qur'an</title>
     
-    <!-- Tailwind CSS via CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- Google Fonts: Poppins -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
     <style>
@@ -26,12 +24,10 @@
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased">
 
-    <!-- 1. NAVBAR -->
     <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-100/80 shadow-sm">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between relative">
             <div class="flex items-center gap-2">
-                <!-- Logo Header menggunakan file gambar -->
-                <img src="./images/logo-syafaatul2.png" alt="Logo Pesantren" class="h-10 w-auto object-contain" />
+                <img src="./images/logo-syafaatul2.png" alt="Logo Pesantren" class="h-10 w-auto object-contain" onerror="this.outerHTML='<div class=\'w-9 h-9 bg-emerald-600 rounded-lg flex items-center justify-center text-white font-bold text-lg\'>P</div>'" />
                 <span class="font-bold text-lg tracking-tight text-slate-900">MA'HAD <span class="text-emerald-600">SYAFA'ATUL QUR'AN</span></span>
             </div>
             
@@ -68,7 +64,6 @@
         </div>
     </nav>
 
-    <!-- 2. HERO SECTION -->
     <header class="relative bg-gradient-to-b from-emerald-50/50 via-white to-slate-50 py-16 md:py-24">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center">
             <div class="space-y-6 text-center md:text-left">
@@ -89,53 +84,60 @@
             </div>
             
             <div class="relative max-w-md mx-auto md:max-w-none w-full aspect-[4/3] bg-slate-200 rounded-2xl overflow-hidden shadow-xl shadow-slate-200/50 border-4 border-white">
-                <img src="./images/peace.jpg" alt="Suasana Pondok Pesantren" class="w-full h-full object-cover" />
+                <img src="images/peace.jpg" alt="Suasana Pondok Pesantren" class="w-full h-full object-cover" />
             </div>
         </div>
     </header>
 
-    <!-- 3. SAMBUTAN PENGASUH & BACA SELENGKAPNYA -->
     <section id="tentang" class="py-16 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 -mt-24">
         <div class="bg-white rounded-2xl p-8 md:p-12 border border-slate-100 shadow-sm grid md:grid-cols-3 gap-8 items-start">
             <div class="md:col-span-1 flex flex-col items-center text-center">
                 <div class="w-32 h-32 md:w-40 md:h-40 bg-slate-200 rounded-full overflow-hidden mb-4 border-2 border-emerald-500 p-1">
                     <img src="./images/ust-zul2.jpg" alt="Pengasuh Pondok" class="w-full h-full object-cover rounded-full" />
                 </div>
-                <h3 class="font-bold text-slate-900">Ust. H. Zulhadi, M.Pd</h3>
-                <p class="text-xs text-emerald-600 font-medium">Pengasuh Ma'had Syafa'atul Qu'an</p>
+                <h3 class="font-bold text-slate-900">Ust. H. Julhadi, Lc, M.Pd</h3>
+                <p class="text-xs text-emerald-600 font-medium">Pengasuh Ma'had Syafa'atul Qur'an</p>
             </div>
             
             <div class="md:col-span-2 space-y-4">
                 <div class="text-emerald-600 text-4xl font-serif">“</div>
                 <p class="text-slate-600 italic leading-relaxed text-sm sm:text-base -mt-4">
-                    "Ma’had Tahfidz Syafa'atul Qur’an merupakan  program  pengembangan Tahfizhul Qur’an  untuk memasyarakatkan Al-Qur’an kepada generasi penerus Agama dan Bangsa, dengan fokus kegiatan pada menghafal Al Qur’an dengan metode yang dilakukan para ulama terdahulu."
+                    "Pendidikan bukan sekadar mentransfer ilmu, melainkan menanamkan adab dan membentuk karakter kepemimpinan yang berlandaskan Al-Qur'an. Meskipun kami memulai dari langkah yang sederhana, komitmen kami utuh untuk melahirkan generasi yang selamat agamanya dan sukses masa depannya."
                 </p>
                 
                 <div id="teks-profil-lengkap" class="hidden space-y-3 pt-2 text-slate-600 leading-relaxed text-sm sm:text-base border-t border-slate-100/50">
-                    <p>Pondok Pesantren Al-Qur'an Modern didirikan dengan semangat untuk menyelaraskan keilmuan klasik (turats) dengan kemampuan kognitif modern. Kami menyadari bahwa tantangan generasi mendatang menuntut keseimbangan antara kecerdasan intelektual, keterampilan teknologi, dan kekuatan ruhiyah.</p>
+                    <p>Ma'had Syafa'atul Qur'an didirikan dengan semangat untuk menyelaraskan keilmuan klasik (turats) dengan kemampuan kognitif modern. Kami menyadari bahwa tantangan generasi mendatang menuntut keseimbangan antara kecerdasan intelektual, keterampilan teknologi, dan kekuatan ruhiyah.</p>
                     <p>Selain program unggulan tahfidzul qur'an, kami senantiasa membekali santri dengan adab keseharian, bahasa asing, dan keterampilan hidup mandiri. Kami berharap alumni pondok ini tidak hanya menjadi penghafal Al-Qur'an, tetapi juga menjadi pelopor kebaikan di tengah-tengah masyarakat.</p>
                     <div>
                         <p class="text-xs font-semibold text-slate-400 uppercase tracking-wider mt-4 mb-1">Visi Utama Kami</p>
-                        <p class="text-sm"><ol><li>1.	Menyelenggarakan Pendidikan dengan Kurikulum Pesantren yang berfokus pada Tahfidzul Qur’an dan pendidikan Agama</li><br>
-<li>2.	Mencetak generasi Tahfidz Al-qur’an yang berkualitas,integritas dan mampu mengamalkan nilai-nilai Al qur’an dalam kehidupan sehari-hari</li><br>
-<li>3.	Mencetak generasi Tahfidz Al-qur’an yang berakhlaqul karimah</li><br>
-<li>4.	Membina Santri agar menjadi insan mulia berguna bagi diri, keluarga, masyarakat, Agama dan Negara</li><br>
-<li>5.	Meningkatkan syiar kegiatan keislaman dimasyarakat</li>
-</ol></p>
+                        <p class="text-sm">Menjadikan lembaga pendidikan Al-qur’an di kalimantan Timur yang Unggul </p>
                     </div>
 
                     <div>
-                        <p class="text-xs font-semibold text-slate-400 uppercase tracking-wider mt-4 mb-1">. Program-Program Ma’had Tahfidz Syafa’atul Qur’an</p>
-                        <p class="text-sm"><ol><li>1.	Tahfidz mukim (tinggal di asrama)</li>
-                <li>2.	Tahfidz Non mukim (Wekend)</li>
-                <li>3.	Diinul Islam (Akhlaq, Fiqhih, Bhs. Arab dan Hadits)</li>
-                <li>4.	Tahsin Tajwid (TT) Qur’an pra tahfidz.</li>
-                <li>5.	Tahfizh Qur’an anak-anak dan Remaja</li>
-                <li>6.	Tahsin,Tahfizh masyarakat umum</li>
-                <li>7.	Pengajian bulanan </li>
-                <li>8.	Tilawah (Seni Membaca Al-Qur’an)</li>
+                        <p class="text-xs font-semibold text-slate-400 uppercase tracking-wider mt-4 mb-1">Misi Utama Kami</p>
+                        <p class="text-sm"><ul>
+                            <li>1. Pendidikan dengan Kurikulum Pesantren yang berfokus pada Tahfidzul Qur’an dan pendidikan Agama</li> <br>
+<li>2. Mencetak generasi Tahfidz Al-qur’an yang berkualitas,integritas dan mampu mengamalkan nilai-nilai Al qur’an dalam kehidupan sehari-hari</li> <br>
+<li>3 Mencetak generasi Tahfidz Al-qur’an yang berakhlaqul karimah</li> <br>
+<li>4. Membina Santri agar menjadi insan mulia berguna bagi diri, keluarga, masyarakat, Agama dan Negara</li> <br>
+<li>5. Meningkatkan syiar kegiatan keislaman dimasyarakat</li>
+</ul></p>
+                    </div>
+
+                    <div>
+                        <p class="text-xs font-semibold text-slate-400 uppercase tracking-wider mt-4 mb-1">Program-Program Ma’had Tahfidz syafa’atul qur’an</p>
+                        <p class="text-sm"><ol>
+                            <li>1. Tahfidz mukim (tinggal di asrama)</li>
+<li>2. Tahfidz Non mukim (Wekend)</li>
+<li>3. Diinul Islam (Akhlaq, Fiqhih, Bhs. Arab dan Hadits)</li>
+<li>4. Tahsin Tajwid (TT) Qur’an pra tahfidz.</li>
+<li>5. Tahfizh Qur’an anak-anak dan Remaja.</li>
+<li>6. Tahsin,Tahfizh masyarakat umum</li>
+<li>7. Pengajian bulanan </li>
+<li>8. Tilawah (Seni Membaca Al-Qur’an)<li>
 </ol></p>
                     </div>
+                    
                 </div>
 
                 <button id="btn-profil" onclick="toggleProfil()" class="text-emerald-600 hover:text-emerald-700 font-semibold text-sm flex items-center gap-1 transition group pt-2">
@@ -146,7 +148,6 @@
         </div>
     </section>
 
-    <!-- 4. PROGRAM UNGGULAN -->
     <section id="program" class="py-16 bg-slate-100/60 pt-24 -mt-24">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-2xl mx-auto mb-12 space-y-2">
@@ -155,19 +156,16 @@
             </div>
             
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Program 1 -->
                 <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition group">
                     <div class="w-10 h-10 bg-emerald-50 text-emerald-600 rounded-xl flex items-center justify-center font-bold mb-4 group-hover:bg-emerald-600 group-hover:text-white transition">01</div>
                     <h3 class="font-bold text-slate-900 mb-2">Tahfidzul Qur'an</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">Target hafalan yang terukur secara realistis dengan metode setoran (ziyadah) dan pengulangan (murojaah) yang menyenangkan.</p>
                 </div>
-                <!-- Program 2 -->
                 <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition group">
                     <div class="w-10 h-10 bg-emerald-50 text-emerald-600 rounded-xl flex items-center justify-center font-bold mb-4 group-hover:bg-emerald-600 group-hover:text-white transition">02</div>
                     <h3 class="font-bold text-slate-900 mb-2">Kajian Kitab Turats</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">Dasar-dasar ilmu fikih harian, akidah akhlak, dan tartil Al-Qur'an agar santri paham dasar hukum ibadah dengan benar.</p>
                 </div>
-                <!-- Program 3 -->
                 <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition group">
                     <div class="w-10 h-10 bg-emerald-50 text-emerald-600 rounded-xl flex items-center justify-center font-bold mb-4 group-hover:bg-emerald-600 group-hover:text-white transition">03</div>
                     <h3 class="font-bold text-slate-900 mb-2">Kemandirian & Adab</h3>
@@ -177,81 +175,83 @@
         </div>
     </section>
 
-    <!-- 5. FASILITAS (Slider Super Smooth & Fleksibel) -->
-<section id="fasilitas" class="py-16 pt-24 -mt-24 overflow-hidden">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center max-w-2xl mx-auto mb-10 space-y-2">
-            <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Lingkungan Belajar</h2>
-            <p class="text-sm sm:text-base text-slate-600">Suasana belajar yang bersih, terjaga, dan kondusif demi kenyamanan fisik dan mental santri.</p>
-        </div>
-
-        <!-- Wrapper Relative -->
-        <div class="relative group">
-            
-            <!-- Tombol Panah Kiri (Hanya Desktop) -->
-            <button id="slide-left" class="hidden md:flex absolute -left-5 top-1/2 -translate-y-1/2 z-10 w-12 h-12 bg-white border border-slate-200 text-slate-600 rounded-full items-center justify-center shadow-lg hover:bg-emerald-50 hover:text-emerald-600 hover:scale-110 transition duration-300 focus:outline-none">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7"></path></svg>
-            </button>
-
-            <!-- Area Slider -->
-            <div id="slider-fasilitas" class="flex overflow-x-auto snap-x snap-mandatory gap-4 sm:gap-6 pb-10 pt-2 hide-scrollbar scroll-smooth overscroll-x-contain -mx-4 px-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
-                
-                <!-- Card Fasilitas 1 -->
-                <div class="snap-center snap-always flex-none w-[85vw] sm:w-[340px] bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-100 flex flex-col group/card hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                    <div class="aspect-[4/3] w-full overflow-hidden bg-slate-200">
-                        <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&q=80&w=400" alt="Ruang Kelas" class="w-full h-full object-cover group-hover/card:scale-105 transition duration-700" />
-                    </div>
-                    <div class="p-5 flex flex-col flex-grow">
-                        <h4 class="text-base font-bold text-slate-900 mb-2">Ruang Kelas Nyaman</h4>
-                        <p class="text-sm text-slate-600 leading-relaxed">Ruang belajar dilengkapi dengan sirkulasi udara yang baik dan pencahayaan optimal untuk mendukung konsentrasi belajar santri setiap hari.</p>
-                    </div>
-                </div>
-
-                <!-- Card Fasilitas 2 -->
-                <div class="snap-center snap-always flex-none w-[85vw] sm:w-[340px] bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-100 flex flex-col group/card hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                    <div class="aspect-[4/3] w-full overflow-hidden bg-slate-200">
-                        <img src="https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&q=80&w=400" alt="Asrama" class="w-full h-full object-cover group-hover/card:scale-105 transition duration-700" />
-                    </div>
-                    <div class="p-5 flex flex-col flex-grow">
-                        <h4 class="text-base font-bold text-slate-900 mb-2">Asrama Bersih & Rapi</h4>
-                        <p class="text-sm text-slate-600 leading-relaxed">Fasilitas tempat tinggal yang dijaga kebersihannya, melatih santri untuk hidup mandiri dan berdisiplin tinggi dalam merawat barang pribadi.</p>
-                    </div>
-                </div>
-
-                <!-- Card Fasilitas 3 -->
-                <div class="snap-center snap-always flex-none w-[85vw] sm:w-[340px] bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-100 flex flex-col group/card hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                    <div class="aspect-[4/3] w-full overflow-hidden bg-slate-200">
-                        <img src="https://images.unsplash.com/photo-1564121211835-e88c852648ab?auto=format&fit=crop&q=80&w=400" alt="Musholla" class="w-full h-full object-cover group-hover/card:scale-105 transition duration-700" />
-                    </div>
-                    <div class="p-5 flex flex-col flex-grow">
-                        <h4 class="text-base font-bold text-slate-900 mb-2">Musholla Utama</h4>
-                        <p class="text-sm text-slate-600 leading-relaxed">Pusat kegiatan ibadah jamaah, setoran tahfidz, dan kajian kitab. Didesain luas dan tenang agar santri khusyuk dalam menjalankan ibadah.</p>
-                    </div>
-                </div>
-
-                <!-- Card Fasilitas 4 -->
-                <div class="snap-center snap-always flex-none w-[85vw] sm:w-[340px] bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-100 flex flex-col group/card hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                    <div class="aspect-[4/3] w-full overflow-hidden bg-slate-200">
-                        <img src="https://images.unsplash.com/photo-1603228254113-27d42fb59f2a?auto=format&fit=crop&q=80&w=400" alt="Halaman" class="w-full h-full object-cover group-hover/card:scale-105 transition duration-700" />
-                    </div>
-                    <div class="p-5 flex flex-col flex-grow">
-                        <h4 class="text-base font-bold text-slate-900 mb-2">Area Terbuka Hijau</h4>
-                        <p class="text-sm text-slate-600 leading-relaxed">Fasilitas olahraga dan rekreasi di luar ruangan. Udara yang segar membantu relaksasi santri di sela-sela kepadatan jadwal pesantren.</p>
-                    </div>
-                </div>
-
+    <section id="fasilitas" class="py-16 pt-24 -mt-24 overflow-hidden">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-10 space-y-2">
+                <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Lingkungan Belajar</h2>
+                <p class="text-sm sm:text-base text-slate-600">Suasana belajar yang bersih, terjaga, dan kondusif demi kenyamanan fisik dan mental santri.</p>
             </div>
 
-            <!-- Tombol Panah Kanan (Hanya Desktop) -->
-            <button id="slide-right" class="hidden md:flex absolute -right-5 top-1/2 -translate-y-1/2 z-10 w-12 h-12 bg-white border border-slate-200 text-slate-600 rounded-full items-center justify-center shadow-lg hover:bg-emerald-50 hover:text-emerald-600 hover:scale-110 transition duration-300 focus:outline-none">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>
-            </button>
-            
-        </div>
-    </div>
-</section>
+            <div class="relative group">
+                
+                <button id="slide-left" class="hidden md:flex absolute -left-5 top-1/2 -translate-y-1/2 z-10 w-12 h-12 bg-white border border-slate-200 text-slate-600 rounded-full items-center justify-center shadow-lg hover:bg-emerald-50 hover:text-emerald-600 hover:scale-110 transition duration-300 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7"></path></svg>
+                </button>
 
-    <!-- 6. INFORMASI PENDAFTARAN -->
+                <div id="slider-fasilitas" class="flex overflow-x-auto snap-x snap-mandatory gap-4 sm:gap-6 pb-10 pt-2 hide-scrollbar scroll-smooth overscroll-x-contain -mx-4 px-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
+                    <!-- Fasilitas 1 -->
+                    <div class="snap-center snap-always flex-none w-[85vw] sm:w-[340px] bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-100 flex flex-col group/card hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                        <div class="aspect-[4/3] w-full overflow-hidden bg-slate-200 relative">
+                            <img src="images/santri.jpg" alt="Ruang Kelas" class="zoomable-image cursor-pointer w-full h-full object-cover group-hover/card:scale-105 transition duration-700" />
+                            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover/card:opacity-100 pointer-events-none transition duration-300 bg-slate-900/20">
+                                <svg class="w-8 h-8 text-white drop-shadow-md" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path></svg>
+                            </div>
+                        </div>
+                        <div class="p-5 flex flex-col flex-grow">
+                            <h4 class="text-base font-bold text-slate-900 mb-2">Ruang Belajar Nyaman</h4>
+                            <p class="text-sm text-slate-600 leading-relaxed">Ruang belajar dilengkapi dengan sirkulasi udara yang baik dan pencahayaan optimal untuk mendukung konsentrasi belajar santri setiap hari.</p>
+                        </div>
+                    </div>
+                    <!-- Fasilitas 2 -->
+                    <div class="snap-center snap-always flex-none w-[85vw] sm:w-[340px] bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-100 flex flex-col group/card hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                        <div class="aspect-[4/3] w-full overflow-hidden bg-slate-200 relative">
+                            <img src="https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&q=80&w=400" alt="Asrama" class="zoomable-image cursor-pointer w-full h-full object-cover group-hover/card:scale-105 transition duration-700" />
+                            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover/card:opacity-100 pointer-events-none transition duration-300 bg-slate-900/20">
+                                <svg class="w-8 h-8 text-white drop-shadow-md" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path></svg>
+                            </div>
+                        </div>
+                        <div class="p-5 flex flex-col flex-grow">
+                            <h4 class="text-base font-bold text-slate-900 mb-2">Asrama Bersih & Rapi</h4>
+                            <p class="text-sm text-slate-600 leading-relaxed">Fasilitas tempat tinggal yang dijaga kebersihannya, melatih santri untuk hidup mandiri dan berdisiplin tinggi dalam merawat barang pribadi.</p>
+                        </div>
+                    </div>
+                    <!-- Fasilitas 3 -->
+                    <div class="snap-center snap-always flex-none w-[85vw] sm:w-[340px] bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-100 flex flex-col group/card hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                        <div class="aspect-[4/3] w-full overflow-hidden bg-slate-200 relative">
+                            <img src="https://images.unsplash.com/photo-1564121211835-e88c852648ab?auto=format&fit=crop&q=80&w=400" alt="Musholla" class="zoomable-image cursor-pointer w-full h-full object-cover group-hover/card:scale-105 transition duration-700" />
+                            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover/card:opacity-100 pointer-events-none transition duration-300 bg-slate-900/20">
+                                <svg class="w-8 h-8 text-white drop-shadow-md" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path></svg>
+                            </div>
+                        </div>
+                        <div class="p-5 flex flex-col flex-grow">
+                            <h4 class="text-base font-bold text-slate-900 mb-2">Musholla Utama</h4>
+                            <p class="text-sm text-slate-600 leading-relaxed">Pusat kegiatan ibadah jamaah, setoran tahfidz, dan kajian kitab. Didesain luas dan tenang agar santri khusyuk dalam menjalankan ibadah.</p>
+                        </div>
+                    </div>
+                    <!-- Fasilitas 4 -->
+                    <div class="snap-center snap-always flex-none w-[85vw] sm:w-[340px] bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-100 flex flex-col group/card hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                        <div class="aspect-[4/3] w-full overflow-hidden bg-slate-200 relative">
+                            <img src="https://images.unsplash.com/photo-1603228254113-27d42fb59f2a?auto=format&fit=crop&q=80&w=400" alt="Halaman" class="zoomable-image cursor-pointer w-full h-full object-cover group-hover/card:scale-105 transition duration-700" />
+                            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover/card:opacity-100 pointer-events-none transition duration-300 bg-slate-900/20">
+                                <svg class="w-8 h-8 text-white drop-shadow-md" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path></svg>
+                            </div>
+                        </div>
+                        <div class="p-5 flex flex-col flex-grow">
+                            <h4 class="text-base font-bold text-slate-900 mb-2">Area Terbuka Hijau</h4>
+                            <p class="text-sm text-slate-600 leading-relaxed">Fasilitas olahraga dan rekreasi di luar ruangan. Udara yang segar membantu relaksasi santri di sela-sela kepadatan jadwal pesantren.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button id="slide-right" class="hidden md:flex absolute -right-5 top-1/2 -translate-y-1/2 z-10 w-12 h-12 bg-white border border-slate-200 text-slate-600 rounded-full items-center justify-center shadow-lg hover:bg-emerald-50 hover:text-emerald-600 hover:scale-110 transition duration-300 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>
+                </button>
+                
+            </div>
+        </div>
+    </section>
+
     <section id="daftar" class="py-16 bg-emerald-900 text-emerald-100 pt-24 -mt-24">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-8 grid lg:grid-cols-2 gap-12 items-center">
             
@@ -313,7 +313,6 @@
         </div>
     </section>
 
-    <!-- 7. LOKASI KAMI (GOOGLE MAPS) -->
     <section id="lokasi" class="py-16 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 -mt-24">
         <div class="text-center max-w-2xl mx-auto mb-10 space-y-2">
             <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Lokasi Pesantren</h2>
@@ -327,12 +326,11 @@
         </div>
     </section>
 
-    <!-- 8. FOOTER -->
     <footer class="bg-slate-900 text-slate-400 py-12 border-t border-slate-800">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-3 gap-8">
             <div class="space-y-4">
                 <div class="flex items-center gap-2">
-                    <img src="./images/logo-syafaatul2.png" alt="Logo Pesantren" class="h-10 w-auto object-contain" />
+                    <img src="images/logo-syafaatul2.png" alt="Logo Pesantren" class="h-10 w-auto object-contain" onerror="this.outerHTML='<div class=\'w-8 h-8 bg-emerald-600 rounded-lg flex items-center justify-center text-white font-bold text-base\'>P</div>'" />
                     <span class="font-bold text-base text-white tracking-tight">MA'HAD <span class="text-emerald-500">SYAFA'ATUL QUR'AN</span></span>
                 </div>
                 <p class="text-xs leading-relaxed max-w-sm">
@@ -343,30 +341,42 @@
                 <h4 class="text-sm font-semibold text-white uppercase tracking-wider">Kontak Kami</h4>
                 <p class="text-xs">📍 Jl. Pendidikan No. 123, Kota Nusantara, Indonesia</p>
                 <p class="text-xs">📞 +62 812-3456-7890 (Ust. Admin)</p>
-                <p class="text-xs">✉️ info@pesantrenmodern.sch.id</p>
+                <p class="text-xs">✉️ info@syafaatulquran.sch.id</p>
             </div>
             <div class="space-y-3">
                 <h4 class="text-sm font-semibold text-white uppercase tracking-wider">Media Sosial</h4>
                 <p class="text-xs">Ikuti perkembangan dan dokumentasi harian kami di media sosial resmi.</p>
+                
                 <div class="flex gap-4 pt-2">
-                    <a href="#" class="hover:scale-110 hover:opacity-80 transition-all duration-300" aria-label="Instagram"><img src="./images/tem cada vídeo doído  no Instagram 😂😂😂😅.jpg" alt="Ikon Instagram" class="w-6 h-6 object-contain" /></a>
-                    <a href="#" class="hover:scale-110 hover:opacity-80 transition-all duration-300" aria-label="YouTube"><img src="./images/FaceBook.jpg" alt="Ikon YouTube" class="w-6 h-6 object-contain" /></a>
-                    <a href="#" class="hover:scale-110 hover:opacity-80 transition-all duration-300" aria-label="Facebook"><img src="./images/Whatsapp logo.jpg" alt="Ikon Facebook" class="w-6 h-6 object-contain" /></a>
+                    <a href="#" class="hover:scale-110 hover:opacity-80 transition-all duration-300" aria-label="Instagram">
+                        <img src="instagram.png" alt="Ikon Instagram" class="w-6 h-6 object-contain" onerror="this.style.display='none'" />
+                    </a>
+                    <a href="#" class="hover:scale-110 hover:opacity-80 transition-all duration-300" aria-label="YouTube">
+                        <img src="youtube.png" alt="Ikon YouTube" class="w-6 h-6 object-contain" onerror="this.style.display='none'" />
+                    </a>
+                    <a href="#" class="hover:scale-110 hover:opacity-80 transition-all duration-300" aria-label="Facebook">
+                        <img src="facebook.png" alt="Ikon Facebook" class="w-6 h-6 object-contain" onerror="this.style.display='none'" />
+                    </a>
                 </div>
             </div>
         </div>
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-6 border-t border-slate-800 text-center text-xs text-slate-600">
-            &copy; 2026 Ma'had Syafa'atul Qur'an Bontang. All rights reserved.
+            © 2026 Ma'had Syafa'atul Qur'an Bontang. All rights reserved.
         </div>
     </footer>
 
-    <!-- Floating WhatsApp Button -->
+    <div id="lightbox" class="fixed inset-0 z-[100] bg-black/95 hidden items-center justify-center opacity-0 transition-opacity duration-300 backdrop-blur-sm">
+        <button id="lightbox-close" class="absolute top-6 right-6 text-white hover:text-emerald-400 transition-colors focus:outline-none z-50 p-2">
+            <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+        </button>
+        <img id="lightbox-img" src="" alt="Gambar Diperbesar" class="max-w-[95%] max-h-[90vh] object-contain rounded-xl shadow-2xl scale-95 transition-transform duration-300" />
+    </div>
+
     <a href="https://wa.me/6281234567890" target="_blank" class="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white p-3.5 rounded-full shadow-xl shadow-green-500/20 transition-all hover:scale-105 group flex items-center gap-2">
         <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397 0 11.93 0c3.165.001 6.14 1.233 8.377 3.473 2.235 2.24 3.461 5.218 3.459 8.385-.004 6.582-5.34 11.93-11.871 11.93-2.007-.001-3.98-.51-5.731-1.482L0 24zm6.59-4.846c1.6.95 3.182 1.449 4.725 1.451 5.405.002 9.803-4.377 9.806-9.768.001-2.596-1.006-5.037-2.834-6.87C16.517 2.135 14.09 1.13 11.522 1.13c-5.41 0-9.81 4.38-9.813 9.773-.001 1.742.47 3.442 1.362 4.956l-.962 3.513 3.606-.944zm11.304-6.106c-.305-.152-1.808-.893-2.087-.994-.28-.101-.483-.152-.686.152-.204.304-.787.994-.965 1.2-.177.203-.355.228-.66.076-.304-.152-1.284-.474-2.447-1.512-.904-.806-1.513-1.802-1.69-2.105-.177-.304-.019-.469.133-.62.137-.137.305-.355.457-.533.152-.177.203-.304.305-.507.102-.203.051-.38-.025-.533-.076-.152-.686-1.653-.94-2.261-.247-.595-.501-.513-.686-.523-.177-.01-.38-.01-.584-.01-.203 0-.533.076-.812.38-.28.304-1.066 1.042-1.066 2.54 0 1.498 1.091 2.946 1.243 3.149.152.204 2.148 3.282 5.204 4.602.727.314 1.294.502 1.738.643.73.232 1.394.199 1.918.121.584-.087 1.808-.737 2.062-1.45.253-.712.253-1.32.177-1.448-.076-.127-.28-.203-.584-.355z"/></svg>
         <span class="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-300 ease-out font-medium text-sm whitespace-nowrap">Tanya Kami</span>
     </a>
 
-    <!-- SCRIPT JAVASCRIPT -->
     <script>
         // 1. MOBILE MENU
         const btn = document.getElementById('mobile-menu-btn');
@@ -419,27 +429,82 @@
             }
         }
 
-       // SLIDER FASILITAS (Dynamic Scroll Horizontal)
-const slider = document.getElementById('slider-fasilitas');
-const btnLeft = document.getElementById('slide-left');
-const btnRight = document.getElementById('slide-right');
+        // 3. SLIDER FASILITAS (Dynamic Scroll Horizontal)
+        const slider = document.getElementById('slider-fasilitas');
+        const btnLeft = document.getElementById('slide-left');
+        const btnRight = document.getElementById('slide-right');
 
-if(slider && btnLeft && btnRight) {
-    const getScrollAmount = () => {
-        // Ambil lebar 1 card + jarak gap secara otomatis
-        const cardWidth = slider.firstElementChild.offsetWidth;
-        const gap = parseFloat(getComputedStyle(slider).gap) || 24; 
-        return cardWidth + gap;
-    };
+        if(slider && btnLeft && btnRight) {
+            const getScrollAmount = () => {
+                const cardWidth = slider.firstElementChild.offsetWidth;
+                const gap = parseFloat(getComputedStyle(slider).gap) || 24; 
+                return cardWidth + gap;
+            };
 
-    btnLeft.addEventListener('click', () => {
-        slider.scrollBy({ left: -getScrollAmount(), behavior: 'smooth' });
-    });
+            btnLeft.addEventListener('click', () => {
+                slider.scrollBy({ left: -getScrollAmount(), behavior: 'smooth' });
+            });
 
-    btnRight.addEventListener('click', () => {
-        slider.scrollBy({ left: getScrollAmount(), behavior: 'smooth' });
-    });
-}
+            btnRight.addEventListener('click', () => {
+                slider.scrollBy({ left: getScrollAmount(), behavior: 'smooth' });
+            });
+        }
+
+        // 4. FITUR ZOOM GAMBAR (Lightbox)
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const lightboxClose = document.getElementById('lightbox-close');
+        const zoomableImages = document.querySelectorAll('.zoomable-image');
+
+        function openLightbox(src) {
+            // Catatan: Hapus bagian ".replace('&w=400', '&w=1200')" di bawah ini
+            // jika Anda sudah menggunakan foto asli pesantren (bukan dari Unsplash).
+            const highResSrc = src.replace('&w=400', '&w=1200'); 
+            lightboxImg.src = highResSrc;
+            
+            lightbox.classList.remove('hidden');
+            lightbox.classList.add('flex');
+            
+            setTimeout(() => {
+                lightbox.classList.remove('opacity-0');
+                lightbox.classList.add('opacity-100');
+                lightboxImg.classList.remove('scale-95');
+                lightboxImg.classList.add('scale-100');
+            }, 10);
+        }
+
+        function closeLightbox() {
+            lightbox.classList.remove('opacity-100');
+            lightbox.classList.add('opacity-0');
+            lightboxImg.classList.remove('scale-100');
+            lightboxImg.classList.add('scale-95');
+            
+            setTimeout(() => {
+                lightbox.classList.add('hidden');
+                lightbox.classList.remove('flex');
+                lightboxImg.src = ''; 
+            }, 300);
+        }
+
+        zoomableImages.forEach(img => {
+            img.addEventListener('click', () => {
+                openLightbox(img.src);
+            });
+        });
+
+        lightboxClose.addEventListener('click', closeLightbox);
+
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox) {
+                closeLightbox();
+            }
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && !lightbox.classList.contains('hidden')) {
+                closeLightbox();
+            }
+        });
     </script>
 </body>
 </html>
